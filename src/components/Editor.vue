@@ -1,10 +1,13 @@
 <template>
   <div class="doedit-container" :dir="rtl ? 'rtl' : 'ltr'">
     <div class="toolbar">
-      <i class="material-icons-outlined open-options" ref="toolbar_btn" @click="openToolbar">add_circle_outline</i>
+      <i
+        class="material-icons-outlined open-options"
+        ref="toolbar_btn"
+        @click="openToolbar"
+      >add_circle_outline</i>
       <div class="options">
-          <div class="option" v-if="options.video">
-          </div>
+        <div class="option" v-if="options.video"></div>
       </div>
     </div>
     <div class="editor" @keydown="enter" contenteditable="true"></div>
@@ -46,6 +49,9 @@ export default {
   },
   mounted() {
     window.document.execCommand("defaultParagraphSeparator", false, "p");
+    document.addEventListener("selectionchange", () => {
+      console.log(document.getSelection());
+    });
   },
   data() {
     return {};
@@ -59,9 +65,9 @@ export default {
     boldSelected() {
       window.document.execCommand("bold");
     },
-    openToolbar(){
+    openToolbar() {
       const btn = this.$refs.toolbar_btn;
-    }
+    },
   },
 };
 </script>

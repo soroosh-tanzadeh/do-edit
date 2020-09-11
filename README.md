@@ -21,7 +21,7 @@ Vue.use(DoEdit);
 `````
 **use it**
 
-`````vuejs
+`````html
 <template>
   <div id="app">
     <do-edit />
