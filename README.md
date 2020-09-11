@@ -2,7 +2,7 @@
 
 
 > 🚧
-> **Project is under development and it's not ready to use.**
+> **Project is under development and it's not ready for use.**
 
 ___Rich Text Editor for VueJs___
 
