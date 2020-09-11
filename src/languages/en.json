@@ -1,0 +1,18 @@
+{
+    "Bold": "Bold",
+    "BackgroundColor": "Background color",
+    "ForegroundColor": "Foreground color",
+    "FontSize": "Font size",
+    "Heading": "Heading",
+    "AlignLeft": "Align left",
+    "AlignRight": "Align right",
+    "AlignJustify": "Align justify",
+    "OrderedList": "Ordered list",
+    "UnorderedList": "Unordered list",
+    "Table": "Table",
+    "Link": "Link",
+    "Picture": "Picture",
+    "Video": "Video",
+    "Uderline": "Underline",
+    "RemoveStyles": "Remove styles"
+}

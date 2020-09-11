@@ -1,7 +1,8 @@
 {
   "name": "do-edit",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "author": "Soroosh Tanzadeh <soroosh081@gmail.com>",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
@@ -9,6 +10,8 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
+    "url-loader": "^4.1.0",
+    "v-tooltip": "^2.0.3",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -18,6 +21,11 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soroosh-tanzadeh/do-edit.git"
   },
   "browserslist": [
     "> 1%",
